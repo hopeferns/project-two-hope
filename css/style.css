@@ -1,4 +1,5 @@
-/* Enter your Styles below! */
+/* font-family: 'Noto Serif', serif;
+ */
 
 body {
 	font-family: Helvetica, sans-serif;
@@ -43,14 +44,83 @@ a:hover { color: black; }
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 40px;
-	width: 60%;
+	grid-gap: 0px;
+	width: 100%;
 	margin: auto;
 }
 
 .grid div {
-	background-color: #ccc;
-	padding: 20px;
+	background-color: (0,0,0);
+
+
+}
+
+.grid_2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1px;
+	width: 100%;
+	margin: auto;
+}
+
+.grid_2 div {
+
+	padding: 30px;
+}
+.one {
+	background-color: orange;
+
+}
+.two {
+	background-color: pink;
+
+}
+.three{
+	background-color: lightyellow;
+}
+.image-text {
+  position: relative;
+  width: 300px;
+  margin: auto;
+}
+
+.image-text img {
+  width: 100%;
+}
+.image-text .text-hover {
+  display: block;
+  width: 300px;
+  height: auto;
+}
+
+.image-text .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+
+
+}
+
+.image-text:hover .overlay {
+  opacity: 1;
+}
+
+.image-text .text {
+  color: white;
+  font-family: 'Noto Serif', serif;;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 @media only screen and (min-width:768px) {
