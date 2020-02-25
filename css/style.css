@@ -1,13 +1,15 @@
 /* font-family: 'Noto Serif', serif;
+font-family: 'Tajawal', ;
+
  */
 
 body {
-	font-family: Helvetica, sans-serif;
+	font-family: 'Tajawal', sans-serif;
 	font-size: 16px;
 	 }
 
 h1, h2, h3, h4 {
-	font-family: Helvetica, sans-serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 h1 {
@@ -36,7 +38,7 @@ header {margin-bottom: 20px;}
 img { width: 100%; }
 
 a {
-	color: red;
+	color: white;
 	text-decoration: none;
 	 }
 a:hover { color: black; }
@@ -68,15 +70,15 @@ a:hover { color: black; }
 	padding: 30px;
 }
 .one {
-	background-color: orange;
+	background-color: rgb(242,143,56);
 
 }
 .two {
-	background-color: pink;
+	background-color: rgb(217,94,50);
 
 }
 .three{
-	background-color: lightyellow;
+	background-color: rgb(191,82,57);
 }
 .image-text {
   position: relative;
@@ -124,9 +126,17 @@ a:hover { color: black; }
 }
 p{
 	color: black;
+	font-family: 'Tajawal', sans-serif;
 }
 svg {
 	color:white;
+}
+
+
+.buildings{
+	height:400px;
+
+
 }
 
 @media only screen and (min-width:768px) {
@@ -138,11 +148,11 @@ svg {
 }
 .parallax {
   /* The image used */
-  background-image: url("https://i.pinimg.com/originals/49/16/03/491603f8403b2a5d6fc6b03bb1a869dd.jpg");
+  background-image: url("https://arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/LLCXLBOMD5C2DGFX5EBHNNFDEE.jpg");
 
 
   /* Set a specific height */
-  height: 400px;
+  height: 850px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
