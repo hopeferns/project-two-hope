@@ -131,6 +131,14 @@ a:hover { color: black; }
 
 
 }
+.grid-4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+	margin: 100px;
+	padding-top: 50px;
+}
+
 .one {
 	background-color: rgb(242,143,56);
 
@@ -187,7 +195,7 @@ a:hover { color: black; }
   text-align: center;
 }
 p{
-	color: white;
+	color:rgb(191,82,57);
 	font-family: 'Tajawal', sans-serif;
 }
 svg {
@@ -198,6 +206,17 @@ svg {
 .buildings{
 	height:400px;
 
+
+}
+.back-p{
+    background-color: white;
+		color: black;
+		font-family: 'Tajawal', sans-serif;
+		padding-left: 60px;
+		padding-right:60px;
+	
+		padding-top: 50px;
+		padding-bottom: 50px;
 
 }
 .bil{
